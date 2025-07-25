@@ -1,18 +1,22 @@
-#fname{
-    background-color: blue;
-      }
-#lname{
-    background-color: yellow;
-      }
-#email{
-    background-color: red;
-      }
-#Address{
-    background-color: black;
-      }
-.ClassForm{
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  background-color: purple;
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+    
+}
+.calculator{
+    border: 1px soild#ccc;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px#ccc;
+}
+.buttons{
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
 }
